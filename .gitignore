@@ -1,0 +1,4 @@
+bertweet_embeddings/network_builder
+bertweet_embeddings/follow_network
+model/.ipynb_checkpoints/
+data_processing/.DS_Store
