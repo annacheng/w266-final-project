@@ -2,7 +2,8 @@
 Anna Cheng and Jacob Barkow's submission for the W266 term project, involving the use of neural networks against BERTweet embeddings to detect whether tweets originated from a PRC-sponsored account.
 
 ## File Directory
-README.md - You are here
+
+* `README.md` - You are here
 
 * `bertweet_embeddings` - Notebook used to generate BERTweet embeddings of the source tweets alongside stored PyTorch tensors. The tensors needed to be persisted to disk due to resource limitations.
 
