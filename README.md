@@ -4,12 +4,12 @@ Anna Cheng and Jacob Barkow's submission for the W266 term project, involving th
 ## File Directory
 README.md - You are here
 
-data - CSVs and associated processing notebook used for creation of datasets. Source data from Twitter's InfoSec releases were combined with manually crawled tweets to create the datasets. **Note that the raw data files from Twitter are not included in this repo as they are too large for Github's data limits.**
+* `bertweet_embeddings` - Notebook used to generate BERTweet embeddings of the source tweets alongside stored PyTorch tensors. The tensors needed to be persisted to disk due to resource limitations.
 
-follow-network - Notebook and python script used to retrieve a network of popular leftist Twitter accounts, used to create the "pro-China" dataset.
+* `data` - CSVs and associated processing notebook used for creation of datasets. Source data from Twitter's InfoSec releases were combined with manually crawled tweets to create the datasets. **Note that the raw data files from Twitter are not included in this repo as they are too large for Github's data limits.**
 
-bertweet_embeddings - Notebook used to generate BERTweet embeddings of the source tweets alongside stored PyTorch tensors. The tensors needed to be persisted to disk due to resource limitations.
+* `follow-network` - Notebook and python script used to retrieve a network of popular leftist Twitter accounts, used to create the "pro-China" dataset.
 
-model - Notebooks involved in the formulation of the baseline model as well as architectural refinements.
+*  `model` - Notebooks involved in the formulation of the baseline model as well as architectural refinements.
 
-sentiment-analysis - Notebook and CSV for Appendix A (proving dataset comparability using Sentiment Analysis).
+* `sentiment-analysis` - Notebook and CSV for Appendix A (proving dataset comparability using Sentiment Analysis).
